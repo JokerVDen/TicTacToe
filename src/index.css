@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+    background-color: #afd9ee;
+    color:white;
+}
+
+.jv-square {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #c4e3f3;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+.jv-square-hover:hover {
+    background-color: #b3d6e7;
+    cursor: pointer;
+}
+.jv-board {
+    width: 152px;
+    height: 152px;
+    margin: auto;
+    margin-top: 75px;
+    border: 1px solid black;
+    font-size: 0;
+}
+.jv-square-one,.jv-square-one:hover {
+    background-color: red;
+}
+.jv-square-two,.jv-square-two:hover {
+    background-color: green;
+}
+.jv-info {
+    margin-top: 30px;
+    text-align: center;
+}
